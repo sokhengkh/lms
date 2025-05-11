@@ -3,7 +3,7 @@ import "./globals.css";
 import {cn} from "@/lib/utils"
 import { ModeToggle } from "@/components/darkMode";
 import { ThemeProvider } from "@/components/theme-provider";
-
+import { Toaster } from "@/components/ui/sonner";
 
 
 const geistSans = Geist({
@@ -35,6 +35,7 @@ export default function RootLayout({ children }) {
         >
             <ModeToggle/>
             {children}
+            <Toaster richColors position="bottom-right" />
         </ThemeProvider>
 
 
