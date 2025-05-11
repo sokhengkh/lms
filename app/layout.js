@@ -4,7 +4,7 @@ import {cn} from "@/lib/utils"
 import { ModeToggle } from "@/components/darkMode";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
-
+import { dbConnect } from "@/service/mongo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,7 +23,10 @@ export const metadata = {
 
 const poppins = Inter({subsets: ['latin'], variable: "--font-poppins"});
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+
+const conn = await dbConnect();  
+  
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn(`${geistSans.variable} ${geistMono.variable} antialiased, poppins.className`)}>
