@@ -37,6 +37,7 @@ const conn = await dbConnect();
           disableTransitionOnChange
         >
             <ModeToggle/>
+            
             {children}
             <Toaster richColors position="bottom-right" />
         </ThemeProvider>

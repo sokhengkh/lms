@@ -1,10 +1,10 @@
-import { Course } from "@/model/course-model";
 import { Category } from "@/model/category-model"
 import { User } from "@/model/user-model";
 import { Testimonials } from "@/model/testimonials-model";
+import { Modules } from "@/model/module-model";
 
 export async function getCourses() {
-    const course = await Course.find({}).populate({
+    const Course = await Course.find({}).populate({
         path: "category",
         model: Category
     }).populate({
@@ -13,6 +13,9 @@ export async function getCourses() {
     }).populate({
         path: "testimonials",
         model: Testimonials
+    }).populate({
+        path: "modules",
+        model: Modules
     });
-    return course;
+    return Course;
 }
