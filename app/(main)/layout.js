@@ -19,6 +19,10 @@ const navLinks = [
         title: "Documentations",
         href: "/documentations"
     },
+    {
+        title: "About",
+        href: "/about"
+    },
 ]
 
 const Mainlayout = ({children}) => {

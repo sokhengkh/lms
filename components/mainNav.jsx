@@ -29,7 +29,7 @@ const MainNav = ({items,children}) => {
 
     return (
         <>
-            <div className='flex gap-6 lg:gap-10'>
+            <div className='flex  gap-6 lg:gap-10'>
                 <Link href="/">
                     <Logo/>
                 </Link>
