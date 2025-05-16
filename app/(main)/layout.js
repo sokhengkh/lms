@@ -33,7 +33,7 @@ const Mainlayout = ({children}) => {
                     <MainNav items={navLinks}/>
                 </div>
             </header>
-            <main>
+            <main className='flex-1 pt-20 flex flex-col'>
                 {children}
             </main>
             <Footer/>
