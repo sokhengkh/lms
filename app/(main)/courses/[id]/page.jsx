@@ -86,13 +86,13 @@ const SingleCoursePage = () => {
           <div className="container">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
               <div className="max-w-2xl mx-auto text-center">
-                <h1 className="px-6 text-lg text-gray-600 font-inter">
+                <h1 className="px-6 text-lg text-gray-600 dark:text-gray-200 font-inter">
                   Master React JS & Next JS
                 </h1>
-                <p className="mt-5 text-4xl font-bold leading-tight text-gray-900 sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
+                <p className="mt-5 text-4xl font-bold leading-tight text-gray-900 dark:text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
                   <span className="relative inline-flex sm:inline">
                     <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
-                    <span className="relative">Reactive Accelerator </span>
+                    <span className="relative ">Reactive Accelerator </span>
                   </span>
                 </p>
 
@@ -140,7 +140,7 @@ const SingleCoursePage = () => {
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold 2xl:text-5xl mt-3">
             Reactive Accelerator
           </h3>
-          <p className="mt-3 text-gray-600 text-sm">
+          <p className="mt-3 text-gray-600 dark:text-gray-200 text-sm">
             Master React JS & Next JS
           </p>
           {/*  */}
@@ -185,7 +185,7 @@ const SingleCoursePage = () => {
                     is dummy text used in laying out print, graphic or web
                     designs Lorem ipsum blinding shot chinwag knees.
                   </p>
-                  <div className="bg-gray-50 space-y-6 p-8 rounded-md mt-8">
+                  <div className="bg-gray-50 space-y-6 p-8 rounded-md mt-8 dark:bg-black dark:text-gray-200">
                     <h4 className="text-2xl">What You will Learn?</h4>
                     <ul className="grid sm:grid-cols-2 grid-cols-1 gap-6">
                       <li className="flex space-x-3">
@@ -230,7 +230,7 @@ const SingleCoursePage = () => {
               </TabsContent>
               <TabsContent value="curriculum">
                 {/* each tab content can be independent component */}
-                <div class="flex gap-x-5 items-center justify-center flex-wrap mt-4 mb-6 text-gray-600 text-sm">
+                <div class="flex gap-x-5 items-center justify-center flex-wrap mt-4 mb-6 dark:text-gray-200 text-gray-600 text-sm">
                   <span className="flex items-center gap-1.5">
                     <BookCheck className="w-4 h-4" />
                     12 Chapters
@@ -255,7 +255,7 @@ const SingleCoursePage = () => {
                     <AccordionTrigger>Introduction</AccordionTrigger>
                     <AccordionContent>
                       {/* header */}
-                      <div class="flex gap-x-5 items-center flex-wrap mt-4 mb-6 text-gray-600 text-sm">
+                      <div class="flex gap-x-5 items-center flex-wrap mt-4 mb-6 text-gray-600 text-sm dark:text-gray-200">
                         <span className="flex items-center gap-1.5">
                           <Video className="w-4 h-4" />
                           12 Lessons
@@ -282,7 +282,7 @@ const SingleCoursePage = () => {
                             "flex items-center gap-x-2 text-slate-500 text-sm font-[500]  transition-all hover:text-slate-600  w-full"
                           )}
                         >
-                          <div className="flex items-center gap-x-2">
+                          <div className="flex items-center gap-x-2 ">
                             <Tv size={16} className={cn("text-slate-500")} />
                             What is React ?
                           </div>
@@ -353,7 +353,7 @@ const SingleCoursePage = () => {
                     <AccordionTrigger>Master Next JS</AccordionTrigger>
                     <AccordionContent>
                       {/* header */}
-                      <div class="flex gap-x-5 items-center flex-wrap mt-4 mb-6 text-gray-600 text-sm">
+                      <div class="flex gap-x-5 items-center flex-wrap mt-4 mb-6 text-gray-600 text-sm dark:text-gray-200">
                         <span className="flex items-center gap-1.5">
                           <Video className="w-4 h-4" />
                           12 Lessons
@@ -453,7 +453,7 @@ const SingleCoursePage = () => {
                     </AccordionTrigger>
                     <AccordionContent>
                       {/* header */}
-                      <div class="flex gap-x-5 items-center flex-wrap mt-4 mb-6 text-gray-600 text-sm">
+                      <div class="flex gap-x-5 items-center flex-wrap mt-4 mb-6 text-gray-600 dark:text-gray-200 text-sm">
                         <span className="flex items-center gap-1.5">
                           <Video className="w-4 h-4" />
                           12 Lessons
