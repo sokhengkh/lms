@@ -6,17 +6,11 @@ import RelatedCourses from "./_components/RelatedCourses";
 
 const SingleCoursePage = () => {
   return (
-    <>
-      
+    <>      
       <CourseDetailsIntro/>
-
       <CourseDetails/>
-
-      {/* Testimonials */}
       <Testimonials/>
-      {/* Releated Course */}
-      <RelatedCourses/>
-      
+      <RelatedCourses/>      
     </>
   );
 };
