@@ -5,7 +5,6 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { formatPrice } from "@/lib/formatPrice";
 import { BookOpen } from "lucide-react";
-import { ArrowRightIcon } from "lucide-react";
 
 const CourseCard = ({course}) => {
     return (

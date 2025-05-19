@@ -1,4 +1,3 @@
- 
 import Element from "@/components/element";
 import { SectionTitle } from "@/components/section-title";
 import Support from "@/components/support";

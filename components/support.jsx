@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 const support = () => {
     return (
-        <div className='bg-slate-50 dark:bg-slate-900 text-black dark:text-white dark:border-white py-5 px-4 md:px-16 border-b border-gray-700'>
+        <div className='bg-slate-50 dark:bg-slate-900 text-black dark:text-white dark:border-white py-5 px-4 md:px-16'>
             <div className='max-w-7xl mx-auto flex flex-col md:flex-row items-center space-y-12 md:space-y-0 md:space-x-8'>
                 <div className='flex-1'>
                     <p className='mt-5 text-3xl font-bold leading-tight text-gray-900 dark:text-white sm:leading-tight sm:text-5xl lg:leading-tight font-poppins'>
