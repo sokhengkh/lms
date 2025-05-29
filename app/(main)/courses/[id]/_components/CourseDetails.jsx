@@ -60,8 +60,7 @@ const CourseDetails = () => {
                 <TabsTrigger value="instructor">Instructor</TabsTrigger>
                 {/* <TabsTrigger value="reviews">Reviews</TabsTrigger> */}
               </TabsList>
-              <TabsContent value="overview">
-                {/* each tab content can be independent component */}
+              <TabsContent value="overview">                
                 <>
                   <h3 className=" text-2xl">Course Description</h3>
                   <p className="mt-4">
@@ -120,8 +119,7 @@ const CourseDetails = () => {
                   </div>
                 </>
               </TabsContent>
-              <TabsContent value="curriculum">
-                {/* each tab content can be independent component */}
+              <TabsContent value="curriculum">                
                 <div class="flex gap-x-5 items-center justify-center flex-wrap mt-4 mb-6 dark:text-gray-200 text-gray-600 text-sm">
                   <span className="flex items-center gap-1.5">
                     <BookCheck className="w-4 h-4" />

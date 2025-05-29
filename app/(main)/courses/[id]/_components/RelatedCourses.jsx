@@ -7,9 +7,6 @@ import { BookOpen } from "lucide-react";
 import { ArrowRight } from "lucide-react";
 import { formatPrice } from "@/lib/formatPrice";
 import { Button, buttonVariants } from "@/components/ui/button";
-
-
-
 import {
   Carousel,
   CarouselContent,
